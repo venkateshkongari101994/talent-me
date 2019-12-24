@@ -196,7 +196,7 @@
     /*------------------------------------------
         = HIDE PRELOADER
     -------------------------------------------*/
-    /*function preloader() {
+    function preloader() {
         if($('.preloader').length) {
             $('.preloader').delay(100).fadeOut(500, function() {
 
@@ -205,19 +205,19 @@
 
             });
         }
-    }*/
+    }
 
 
     /*------------------------------------------
         = WOW ANIMATION SETTING
     -------------------------------------------*/
-   /* var wow = new WOW({
+    var wow = new WOW({
         boxClass:     'wow',      // default
         animateClass: 'animated', // default
         offset:       0,          // default
         mobile:       true,       // default
         live:         true        // default
-    });*/
+    });
 
 
     /*------------------------------------------
